@@ -43,7 +43,7 @@ def test_outputPd():
     assert testa.equals(match)
 
 def test_improved():
-
+    # test a time costy func
     def task_func(x):
         # something takes time
         randomizer = randint(1000, 10000)

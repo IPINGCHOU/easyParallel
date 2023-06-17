@@ -7,6 +7,7 @@ class ParallelManager():
         self.manager = multiprocessing.Manager()
         self.queue = self.manager.Queue()
         self.returns = self.manager.dict()
+        # parameters for progress bar
         self.verbose = verbose
         self.update_freq = update_freq
         # self.lock = self.manager.Lock()
